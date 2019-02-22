@@ -1,0 +1,7 @@
+help:
+	@echo -B --always-make
+	@echo java
+
+.PHONY: java
+java:
+	java -classpath `cygpath -wp ".:/cygdrive/d/lib/httpclient-4.5.7.jar:/cygdrive/d/lib/httpcore-4.4.11.jar"` pacote.Jponte

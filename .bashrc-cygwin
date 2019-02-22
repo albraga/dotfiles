@@ -1,0 +1,10 @@
+export http_proxy=http://correiosnet.int\82038198:Allahistgrober_1@proxycorsp:8080
+export https_proxy=$http_proxy
+export DERBY_HOME="D:\\db-derby-10.14.2.0"
+#export CLASSPATH=".":"D:\\db-derby-10.14.2.0\\lib":"D:/lib/httpclient-4.5.7.jar":"D:/lib/httpcore-4.4.11.jar" 
+# export JAVA_HOME=/cygdrive/d/android-studio/jre
+export JAVA_HOME="D:\\jdk8u202-b08"
+export ANDROID_HOME="D:\\android"
+# export ANDROID_HOME="D:/Users/82038198/AppData/Local/Android/Sdk"
+export PATH=$DERBY_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:/cygdrive/d/gradle-5.2.1/bin:/cygdrive/d/apache-maven-3.6.0/bin:$JAVA_HOME/bin:$PATH
+
